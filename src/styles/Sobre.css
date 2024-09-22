@@ -1,0 +1,15 @@
+.sobre {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  height: 100vh; 
+  font-family: 'Arial', sans-serif;
+}
+
+.sobre p {
+  margin: 0; 
+  line-height: 1.5; 
+  max-width: 1000px; 
+  text-align: justify; 
+}

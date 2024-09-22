@@ -1,0 +1,104 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* Título */
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Formulário */
+  div {
+    margin: 20px 0;
+  }
+  
+  input, select, button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input:focus, select:focus, button:focus {
+    border-color: #76c7c0;
+    outline: none;
+  }
+  
+  /* Botão Adicionar e Cancelar */
+  button {
+    background-color: #76c7c0;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #63b2ad;
+  }
+  
+  /* Cards */
+  div.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .card {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+  }
+  
+  .card h3 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Entradas de Renda e Despesa */
+  .entry {
+    border: 1px solid #75c;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .entry p {
+    margin: 0;
+  }
+  
+  /* Botões de Editar e Excluir */
+  .entry button {
+    background-color: #f9c74f; /* Cor amarela */
+    margin-right: 5px;
+  }
+  
+  .entry button:hover {
+    background-color: #f9b12a;
+  }
+  
+  .entry .delete-button {
+    background-color: #f94144; /* Cor vermelha */
+  }
+  
+  .entry .delete-button:hover {
+    background-color: #f3722c;
+  }
+  
+  /* Gráfico */
+  .chart-container {
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  

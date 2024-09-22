@@ -1,0 +1,15 @@
+.home {
+    display: flex; /* Ou use grid, conforme mencionado antes */
+    flex-direction: column; /* Coloca os itens em coluna */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura como 100% da tela */
+    text-align: center; /* Centraliza o texto */
+    font-family: 'Arial', sans-serif;
+  }
+  .home p{
+  margin: 0; 
+  line-height: 1.5; 
+  max-width: 800px; 
+  text-align: justify; 
+}
